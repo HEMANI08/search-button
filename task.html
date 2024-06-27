@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: inline-flex;
+            flex: 1 1 300px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            overflow: hidden;
+        }
+        .icon{
+            padding: 0.8rem;
+        }
+        .searchbox{
+            border: 0;
+            flex: 1;
+        }
+        .searchbutton{
+            color:black;
+            background-color: plum;
+            border: 0;
+            padding: 0.8rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="icon" src="task3.jfif" alt="sample image" style="width: 32px; height:24px;">
+        <input class="searchbox" type="search" name="search" placeholder="Enter your text here">
+        <input type="submit" value="search" class="searchbutton">
+    </div>
+</body>
+</html>
